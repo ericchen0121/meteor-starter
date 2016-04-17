@@ -32,22 +32,22 @@
 
 	# For email footers
 	legal:
-		address: 'Jessnerstrasse 18, 12047 Berlin'
+		address: 'Phoenix, MD'
 		name: 'Meteor Factory'
-		url: 'http://benjaminpeterjones.com'
+		url: 'eric.chen0121@gmail.com'
 
 	about: 'http://meteorfactory.io'
 	blog: 'http://learn.meteorfactory.io'
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/benjaminpeterjones'
+			url: 'http://facebook.com/emblemmobile'
 			icon: 'facebook'
 		twitter:
-			url: 'http://twitter.com/BenPeterJones'
+			url: 'http://twitter.com/emblemmobile'
 			icon: 'twitter'
 		github:
-			url: 'http://github.com/yogiben'
+			url: 'http://github.com/ericchen0121'
 			icon: 'github'
 		info:
 			url: 'http://meteorfactory.io'
