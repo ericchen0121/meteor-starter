@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: 'Emblem Conference 2016'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
