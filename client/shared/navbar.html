@@ -10,7 +10,7 @@
           <div class="sliding-menu visible-xs">
             <div class="panel panel-default">
               {{#if User}}
-                <div class="panel-heading">{{niceName User._id}}</div>
+                <div class="panel-heading">EMBLEM</div>
                 <div class="list-group">
                   <a class="list-group-item" href="{{pathFor 'profile'}}">{{_ "profile"}}</a>
                   <a class="list-group-item" href="{{pathFor 'account'}}">{{_ "account"}}</a>
@@ -28,6 +28,14 @@
           <a class="navbar-brand" href="{{#if User}}{{Config.dashboardRoute}}{{else}}{{Config.homeRoute}}{{/if}}">{{{Config.logo}}}</a>
         </div>
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="/events">Events</a></li>
+            <li><a href="/speakers">Speakers</a></li>
+            <li><a href="/apply">Apply</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/signup">Sign Up</a></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right">
             {{#if User}}
               {{> notificationsDropdown}}
