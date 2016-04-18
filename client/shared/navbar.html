@@ -29,34 +29,12 @@
         </div>
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-left">
-            <li><a href="/events">Events</a></li>
+            <li><a href="/tickets">Tickets</a></li>
             <li><a href="/speakers">Speakers</a></li>
             <li><a href="/applynow">Apply</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/signup">Sign Up</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            {{#if User}}
-              {{> notificationsDropdown}}
-              {{#if isInRole 'admin'}}
-                <li><a href="{{pathFor 'adminDashboard'}}">{{_ "admin"}}</a></li>
-              {{/if}}
-              {{> userDropdown}}
-              <li class="visible-xs">
-                <a href="{{pathFor 'profile'}}" class="close-navbar">{{_ "edit_profile"}}</a>
-              </li>
-              <li class="visible-xs">
-                <a class="close-navbar" href="/sign-out">{{_ "signout"}}</a>
-              </li>
-            {{else}}
-              <li>
-                <a class="close-navbar" href="/sign-up">{{_ "signup"}}</a>
-              </li>
-              <li>
-                <a class="close-navbar" href="/sign-in">{{_ "login"}}</a>
-              </li>
-            {{/if}}
           </ul>
         </div>
       </div>

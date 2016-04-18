@@ -17,7 +17,7 @@ Schemas.Applicants = new SimpleSchema
 		type: String
 		max: 60
 
-	resumes:
+	resume:
     type: String
     autoform:
       afFieldInput:

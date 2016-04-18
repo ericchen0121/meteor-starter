@@ -1,6 +1,6 @@
 Router.map ->
-  @route "events",
-    path: "/events"
+  @route "tickets",
+    path: "/tickets"
 
   @route "speakers",
     path: "/speakers"

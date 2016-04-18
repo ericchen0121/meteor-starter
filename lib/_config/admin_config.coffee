@@ -29,6 +29,6 @@
 				}
 			]
 	dashboard:
-		homeUrl: '/dashboard'
+		homeUrl: '/'
 	autoForm:
 		omitFields: ['createdAt', 'updatedAt']
