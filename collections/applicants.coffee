@@ -1,6 +1,6 @@
 @Applicants = new Meteor.Collection('applicants');
 
-Schemas.Posts = new SimpleSchema
+Schemas.Applicants = new SimpleSchema
 	firstName:
 		type: String
 		max: 60
@@ -25,3 +25,5 @@ Schemas.Posts = new SimpleSchema
 		autoValue: ->
 			if this.isUpdate
 				new Date()
+
+Applicants.attachSchema(Schemas.Applicants)
