@@ -22,6 +22,14 @@ Attachments.allow
 	download: (userId)->
 		true
 
+Resumes.allow
+	insert: (userId, doc) ->
+		true
+	update: (userId, doc, fieldNames, modifier) ->
+		true
+	download: (userId)->
+		true
+
 Meteor.users.allow
 	update: (userId, doc, fieldNames, modifier) ->
 		if userId == doc._id and not doc.username and fieldNames.length == 1 and fieldNames[0] == 'username'

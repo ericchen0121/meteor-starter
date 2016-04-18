@@ -7,6 +7,10 @@ Router.map ->
 
   @route "applynow",
     path: "/applynow"
+    waitOn: ->
+      [
+        Meteor.subscribe 'resumes'
+      ]
 
   @route "about",
     path: "/about"

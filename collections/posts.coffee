@@ -28,7 +28,7 @@ Schemas.Posts = new SimpleSchema
 		autoform:
 			afFieldInput:
 				type: 'fileUpload'
-				collection: 'Attachments'
+				collection: 'Resumes'
 
 	owner:
 		type: String

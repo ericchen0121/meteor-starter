@@ -9,3 +9,6 @@ Meteor.publish 'attachments', ->
 
 Meteor.publish 'applicants', ->
 	Applicants.find()
+
+Meteor.publish 'resumes', ->
+	Resumes.find()

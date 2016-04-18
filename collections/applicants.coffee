@@ -9,9 +9,21 @@ Schemas.Applicants = new SimpleSchema
 		type: String
 		max: 60
 
+	email:
+		type: String
+		max: 60
+
 	company:
 		type: String
 		max: 60
+
+	resumes:
+    type: String
+    autoform:
+      afFieldInput:
+        type: 'fileUpload'
+        collection: 'Resumes'
+        label: 'Choose file' # optional
 
 	createdAt:
 		type: Date
