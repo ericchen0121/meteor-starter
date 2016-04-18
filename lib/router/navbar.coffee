@@ -5,8 +5,8 @@ Router.map ->
   @route "speakers",
     path: "/speakers"
 
-  @route "apply",
-    path: "/apply"
+  @route "applynnow",
+    path: "/applynow"
 
   @route "about",
     path: "/about"
