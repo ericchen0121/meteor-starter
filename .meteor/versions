@@ -61,6 +61,7 @@ deps@1.0.9
 diff-sequence@1.0.1
 ecmascript@0.1.6
 ecmascript-runtime@0.2.6
+ecwyne:polymer-elements@1.0.9
 ejson@1.0.7
 email@1.0.8
 facebook@1.2.2
@@ -98,6 +99,7 @@ localstorage@1.0.5
 logging@1.0.8
 manuelschoebel:ms-seo@0.4.1
 matb33:collection-hooks@0.8.1
+materialize:materialize@0.97.5
 mdg:validation-error@0.5.1
 meteor@1.1.10
 meteor-base@1.0.1

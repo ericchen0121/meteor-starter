@@ -29,3 +29,14 @@ Template.home.rendered = () ->
 Template.home.destroyed = () ->
 	#For Skrollr
 	$('body').attr('style','')
+
+Template.home.events = () ->
+	Router._scrollToHash = (hash) -> 
+	  section = $(hash)
+	  if (section.length) 
+	    sectionTop = section.offset().top;
+	    $("html, body").animate({
+	      scrollTop: sectionTop
+	    }, "slow");
+	  
+	

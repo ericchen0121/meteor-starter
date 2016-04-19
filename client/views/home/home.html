@@ -7,6 +7,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="/tickets">Tickets</a></li>
                         <li><a href="/speakers">Speakers</a></li>
+                        <li><a href="/schedule">Schedule</a></li>
                         <li><a href="/applynow">Apply</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact">Contact</a></li>
@@ -17,25 +18,31 @@
         </div>
     </nav>
     <section id="intro" class="colored text-center">
-        <div class="container">
-            <div class="intro-well wow animated bounceIn">
-                <div class="row">
-                    <div class="openingceremony col-lg-12 col-sm-12">
-                        <h1>{{Config.title}}</h1>
-                        <h2 class="hidden-xs">{{Config.subtitle}}</h2>
-                        <div class="col-lg-12 col-sm-12">
-                          <h4>{{_ "where"}}  |  {{_ "when"}}</h4> 
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="intro-well wow animated pulse">
+          <div class="row">
+            <div class="openingceremony col-lg-12 col-sm-12">
+                <h1>{{Config.title}}</h1>
+                <div class="col-lg-12 col-sm-12">
+                  <h3>{{_ "where"}}  |  {{_ "when"}}</h3> 
                 </div>
             </div>
+             <div class="col-lg-12 col-sm-12">
+                <div class="iconbox">
+                  <a href="#program"><i class='fa fa-chevron-down fa-3x'></i></a>
+                </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <section id="how-it-works" class="text-center">
+    <section>
+    </section>
+    <section id="program" class="text-center">
         <div class="container wow fadeIn animated">
             <div class="row col-md-12">
-                <h3>{{_ "where"}}</h3>
-                <h4>{{Config.name}} - {{Config.subtitle}}</h4>
+                <h3>{{_ "program"}}</h3>
+                <h4>{{_ "program_highlights"}}</h4>
             </div>
         </div>
         <div class="container">
@@ -68,7 +75,7 @@
         <div class="container">
             <div class="row" id="icon-row">
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
-                  <li class="avatar-frame center"><img src='img/assets/speakers_aman_advani.jpg?changed'></li>
+                  <li class="col-md-4 col-md-offset-1 avatar-frame center"><img src='img/assets/speakers_aman_advani.jpg?changed'></li>
                 </div>
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
                   <li class="avatar-frame center"><img src='img/assets/speakers_andrew_chung.jpg?changed'></li>

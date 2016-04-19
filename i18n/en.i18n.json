@@ -6,7 +6,7 @@
 	"configSubtitle": "Empowering Minorities in Tech's Golden Age",
 	
 	/*Home*/
-	"getstarted": "Get Started",
+	"getstarted": "Get Your Ticket",
 	"dashboard": "Go to dashboard",
 	"learn": "Learn more",
 	"intro": "Make Meteor Apps. Fast.",
@@ -17,13 +17,16 @@
 	"second_base": "Workshops",
 	"second_base_text": "Learn hands-on from the best battle-tested vets. Level up your game.",
 	"third_base": "Startups",
-	"third_base_text": "Startup Exhibition. Bring your A+ game and a 30-second pitch.",
+	"third_base_text": "Startup Exhibition. Bring your A+ game and a 30-second elevator pitch.",
 	"section_ipad_header": "A revolutionary product",
 	"section_ipad_text": "Do really cool stuff really quickly",
 	"section_ipad_btn": "Made by MeteorFactory",
 	"final_text": "Change history. Make the future in tech.",
 	"final_cta": "About Us",
 	"when": "June 10 / June 11",
+	"program": "EMBLEM Conference 2016",
+	"program_highlights": "Speakers, Workshops, and Startups",
+
 	/*Shared*/
 
 	"favorite": "Favorite",

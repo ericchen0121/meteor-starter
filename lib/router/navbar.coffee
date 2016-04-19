@@ -21,3 +21,5 @@ Router.map ->
   @route "signup",
     path: "/signup"
 
+  @route "schedule",
+    path: "/schedule"
