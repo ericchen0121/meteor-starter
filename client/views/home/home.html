@@ -20,14 +20,12 @@
         <div class="container">
             <div class="intro-well wow animated bounceIn">
                 <div class="row">
-                    <div class="col-lg-12 col-sm-12">
+                    <div class="openingceremony col-lg-12 col-sm-12">
                         <h1>{{Config.title}}</h1>
                         <h2 class="hidden-xs">{{Config.subtitle}}</h2>
-                        {{#if User}}
-                        <a href="{{pathFor 'dashboard'}}" class="btn btn-success"><i class="fa fa-dashboard"></i> {{_ "dashboard"}}</a>
-                        {{else}}
-                        <a class="btn btn-hollow" href="{{pathFor 'atSignUp'}}">{{_ "getstarted"}}</a>
-                        {{/if}}
+                        <div class="col-lg-12 col-sm-12">
+                          <h4>{{_ "where"}}  |  {{_ "when"}}</h4> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -36,7 +34,7 @@
     <section id="how-it-works" class="text-center">
         <div class="container wow fadeIn animated">
             <div class="row col-md-12">
-                <h3>{{_ "how"}}</h3>
+                <h3>{{_ "where"}}</h3>
                 <h4>{{Config.name}} - {{Config.subtitle}}</h4>
             </div>
         </div>
@@ -44,24 +42,69 @@
             <div class="row" id="icon-row">
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
                     <div class="iconbox">
-                        <i class="fa fa-plane fa-3x"></i>
+                      <i class="fa fa-plane fa-3x"></i>
                     </div>
-                    <h2 class="icntitle">{{_ "step_1"}}</h2>
-                    <p class="icnp">{{_ "step_1_text"}}</p>
+                    <h2 class="icntitle">{{_ "first_base"}}</h2>
+                    <p class="icnp">{{_ "first_base_text"}}</p>
                 </div>
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
                     <div class="iconbox">
-                        <i class="fa fa-bolt fa-3x"></i>
+                      <i class="fa fa-bolt fa-3x"></i>
                     </div>
-                    <h2 class="icntitle">{{_ "step_2"}}</h2>
-                    <p class="icnp">{{_ "step_2_text"}}</p>
+                    <h2 class="icntitle">{{_ "second_base"}}</h2>
+                    <p class="icnp">{{_ "second_base_text"}}</p>
                 </div>
                 <div class="col-md-4 wow fadeInUp animated" data-wow-delay="1.2s">
                     <div class="iconbox">
-                        <i class="fa fa-check fa-3x"></i>
+                      <i class="fa fa-headphones fa-3x"></i>
                     </div>
-                    <h2 class="icntitle">{{_ "step_3"}}</h2>
-                    <p class="icnp">{{_ "step_3_text"}}</p>
+                    <h2 class="icntitle">{{_ "third_base"}}</h2>
+                    <p class="icnp">{{_ "third_base_text"}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="speakers">
+        <div class="container">
+            <div class="row" id="icon-row">
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_aman_advani.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_andrew_chung.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="1.2s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_cynthia_breazeal.jpg?changed'></li>
+                </div>
+            </div>
+            <div class="row" id="icon-row">
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_david_malan.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_elaine_chen.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="1.2s">
+                    <li class="avatar-frame center"><img src='img/assets/speakers_miguel_mckelvey.jpg?changed'></li>
+                </div>
+            </div>
+            <div class="row" id="icon-row">
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
+                    <li class="avatar-frame center"><img src='img/assets/speakers_steve_kaufer.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_thuan_pham.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="1.2s">
+                    <li class="avatar-frame center"><img src='img/assets/speakers_tom_chi.jpg?changed'></li>
+                </div>
+            </div>
+            <div class="row" id="icon-row">
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.4s">
+                    <li class="avatar-frame center"><img src='img/assets/speakers_tony_hsieh.jpg?changed'></li>
+                </div>
+                <div class="col-md-4 wow fadeInUp animated" data-wow-delay="0.8s">
+                  <li class="avatar-frame center"><img src='img/assets/speakers_vinit_nijhawan.jpg?changed'></li>
                 </div>
             </div>
         </div>

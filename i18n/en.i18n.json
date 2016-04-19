@@ -11,19 +11,19 @@
 	"learn": "Learn more",
 	"intro": "Make Meteor Apps. Fast.",
 
-	"how": "Boston Copley Place",
-	"step_1": "Speakers",
-	"step_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-	"step_2": "Workshops",
-	"step_2_text": "Oratio me istius philosophi non offendit; Qua tu etiam inprudens utebare non numquam.",
-	"step_3": "Startups",
-	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
+	"where": "Marriott Boston Copley Place",
+	"first_base": "Speakers",
+	"first_base_text": "Hear from the best in the biz. Listen, assimilate, execute.",
+	"second_base": "Workshops",
+	"second_base_text": "Learn hands-on from the best battle-tested vets. Level up your game.",
+	"third_base": "Startups",
+	"third_base_text": "Startup Exhibition. Bring your A+ game and a 30-second pitch.",
 	"section_ipad_header": "A revolutionary product",
 	"section_ipad_text": "Do really cool stuff really quickly",
 	"section_ipad_btn": "Made by MeteorFactory",
 	"final_text": "Change history. Make the future in tech.",
 	"final_cta": "About Us",
-
+	"when": "June 10 / June 11",
 	/*Shared*/
 
 	"favorite": "Favorite",
