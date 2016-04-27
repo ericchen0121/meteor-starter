@@ -1,4 +1,30 @@
 <template name="applynow">
-	<h1>EMBLEM Startup Competition Application</h1>
-  {{> quickForm collection="Applicants" id="insertApplicantsForm" type="insert"}}
+	<h1>EMBLEM Startup Exhibition Application</h1>
+<!--  -->
+  {{#autoForm collection="Applicants" id="insertApplicantsForm" type="insert"}}
+  	<h3 class='less-bounds spacing'>Company</h3>
+  	{{> afQuickField name="company"}}
+  	{{> afQuickField name="shortDescription"}}
+  	{{> afQuickField name="companyUrl"}}
+  	{{> afQuickField name="angellistUrl"}}
+  	{{> afQuickField name="crunchbaseUrl"}}
+  	{{> afQuickField name="awards"}}
+  	{{> afQuickField name="funding"}}
+  	{{> afQuickField name="pitchDeck"}}
+ 
+ 		<h3 class='less-bounds spacing'>Founders</h3>
+ 		<p class='less-bounds spacing'>For each founder, submit a comma-separated list of all founder names, emails, and social media. Also submit all resumes of cofounders.</p>
+   	{{> afQuickField name="founderNames"}}
+  	{{> afQuickField name="emails"}}
+  	{{> afQuickField name="resumes"}}
+
+  	<h3 class='less-bounds spacing'>Founder Social Media</h3>
+  	{{> afQuickField name="linkedInUrls"}}
+  	{{> afQuickField name="facebookUrls"}}
+  	{{> afQuickField name="twitterUrls"}}
+  	{{> afQuickField name="instagramHandles"}}
+  	{{> afQuickField name="snapChatHandles"}}
+  	
+  {{/autoForm}}
+  <br><br><br>
 </template>

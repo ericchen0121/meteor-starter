@@ -16,15 +16,20 @@ Schemas.Applicants = new SimpleSchema
 		max: 60
 		label: 'Founder emails'
 
+	companyUrl:
+		type: String
+		max: 60
+		label: 'Founder emails'
+
 	shortDescription: 
 		type: String
 		max: 100
-		label: '10-Word or Less Elevator Pitch of Your Company'
+		label: '10-Word or Less Elevator Pitch'
 
 	awards: 
 		type: String
 		max: 300
-		label: 'Any Startup Awards'
+		label: 'Startup Awards'
 
 	funding: 
 		type: String
@@ -70,16 +75,13 @@ Schemas.Applicants = new SimpleSchema
     type: String
     autoform:
       afFieldInput:
-        type: 'cfs-file'
-        multiple: true
+        type: 'cfs-files'
         collection: 'Resumes'
-        label: 'Upload Resumes (one file for all cofounder resumes)' # optional
 
   pitchDeck:
     type: String
     autoform:
       afFieldInput:
-        type: 'cfs-file'
+        type: 'cfs-files'
         collection: 'pitchDeck'
-        label: 'Upload PitchDeck' # optional
 Applicants.attachSchema(Schemas.Applicants)
