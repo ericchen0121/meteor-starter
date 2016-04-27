@@ -72,4 +72,9 @@ ejson
 spacebars
 check
 fourseven:scss@3.2.0
+<<<<<<< HEAD
 cfs:autoform
+=======
+materialize:materialize
+ecwyne:polymer-elements
+>>>>>>> master

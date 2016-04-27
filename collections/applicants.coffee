@@ -19,7 +19,7 @@ Schemas.Applicants = new SimpleSchema
 	companyUrl:
 		type: String
 		max: 60
-		label: 'Founder emails'
+		label: 'Company URL'
 
 	shortDescription: 
 		type: String
@@ -29,12 +29,17 @@ Schemas.Applicants = new SimpleSchema
 	awards: 
 		type: String
 		max: 300
-		label: 'Startup Awards'
+		label: 'Startup Awards Won (e.g. Mass. Challenge, MIT $100k)'
+
+	accelerator: 
+		type: String
+		max: 300
+		label: 'Accelerator programs (YC, Techstars)'
 
 	funding: 
 		type: String
 		max: 300
-		label: 'Funding Status'
+		label: 'Prior Funding to Date'
 
 	linkedInUrls: 
 		type: String

@@ -4,4 +4,3 @@ Router.map ->
     waitOn: ->
       [
         Meteor.subscribe 'resumes'
-      ]
