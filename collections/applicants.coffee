@@ -1,41 +1,85 @@
 @Applicants = new Meteor.Collection('applicants');
 
 Schemas.Applicants = new SimpleSchema
-	firstName:
-		type: String
-		max: 60
-
-	lastName:
-		type: String
-		max: 60
-
-	email:
-		type: String
-		max: 60
-
 	company:
 		type: String
 		max: 60
+		label: 'Company Name'
 
-	resume:
+	founderNames:
+		type: String
+		max: 200
+		label: 'Founder Names'
+
+	emails:
+		type: String
+		max: 60
+		label: 'Founder emails'
+
+	shortDescription: 
+		type: String
+		max: 100
+		label: '10-Word or Less Elevator Pitch of Your Company'
+
+	awards: 
+		type: String
+		max: 300
+		label: 'Any Startup Awards'
+
+	funding: 
+		type: String
+		max: 300
+		label: 'Funding Status'
+
+	linkedInUrls: 
+		type: String
+		max: 200
+		label: 'LinkedIn URLs'
+
+	facebookUrls: 
+		type: String
+		max: 200
+		label: 'Facebook URLS'
+
+	twitterUrls: 
+		type: String
+		max: 200
+		label: 'Twitter Usernames'
+
+	instagramHandles: 
+		type: String
+		max: 200
+		label: 'Instagram Handles'
+
+	snapChatHandles: 
+		type: String
+		max: 200
+		label: 'Snapchat Handles'
+
+	crunchbaseUrl: 
+		type: String
+		max: 200
+		label: 'Crunchbase URL'
+
+	angellistUrl: 
+		type: String
+		max: 200
+		label: 'AngelList URL'
+
+	resumes:
     type: String
     autoform:
       afFieldInput:
-        type: 'fileUpload'
+        type: 'cfs-file'
+        multiple: true
         collection: 'Resumes'
-        label: 'Choose file' # optional
+        label: 'Upload Resumes (one file for all cofounder resumes)' # optional
 
-	createdAt:
-		type: Date
-		autoValue: ->
-			if this.isInsert
-				new Date()
-
-	updatedAt:
-		type:Date
-		optional:true
-		autoValue: ->
-			if this.isUpdate
-				new Date()
-
+  pitchDeck:
+    type: String
+    autoform:
+      afFieldInput:
+        type: 'cfs-file'
+        collection: 'pitchDeck'
+        label: 'Upload PitchDeck' # optional
 Applicants.attachSchema(Schemas.Applicants)
